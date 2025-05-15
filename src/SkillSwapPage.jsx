@@ -7,7 +7,7 @@ const SkillSwapPage = () => {
       {/* Sidebar */}
       <div className="sidebar" style={styles.sidebar}>
         <span className="logo" style={styles.logo}>LEARNING PLATFORM</span>
-        <a href="http://127.0.0.1:5500/templates/userprofile.html" style={styles.sidebarLink}>Profile</a>
+        <a href="#Profile" style={styles.sidebarLink}>Profile</a>
         <a href="#Courses" style={styles.sidebarLink}>Courses</a>
         <a href="https://mydiscussions.ccbp.tech/" style={styles.sidebarLink}>My Discussions</a>
         <a href="https://ibmjobboard.ccbp.tech/" style={styles.sidebarLink}>Job Board</a>
