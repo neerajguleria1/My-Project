@@ -1,0 +1,140 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Navbar styles */
+.nav-logo-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #555;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Home Section */
+.home-section {
+    width: 100vw; /* Ensure full viewport width */
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+
+/* Background image */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/home-bg.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/* Styling for text container */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust if needed */
+    margin: 0 auto;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.about-heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    min-height: 100vh; /* Takes full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.contact-section button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer-section {
+    background: #222;
+    padding: 20px;
+    color: white;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+body {
+    padding-top: 80px; /* Adjust as per navbar height */
+  }
+
+  .parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.contact-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Adjust width as needed */
+}
