@@ -1,0 +1,22 @@
+/* Ensure the login page takes full height and centers content */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #f8f9fa;
+  position: fixed; /* Fix it to viewport */
+  top: 0;
+  left: 0;
+}
+
+/* Style the login box */
+.login-box {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
