@@ -14,31 +14,31 @@ const courses = [
     title: "Data Science",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9hnCAoyxDEhBz2Yh7n8n97l8VB4GvK32H_0sLZo5u9pa-lCazY37DtHE7tFYv_jEtKrs&",
     details: ["Advanced Data Science", "Data Science at Scale"],
-    link: "https://example.com/datascience",
+    link: "https://t.me/datascienced1",
   },
   {
     title: "AI/ML",
     image: "https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5758186fbd8_ABM%20college%20mobile%20app%20dev%20main.jpg",
     details: ["Fundamentals of ML", "Supervised ML Algorithms"],
-    link: "https://example.com/aiml",
+    link: "https://t.me/aimla1",
   },
   {
     title: "Cyber Security",
     image: "https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg",
     details: ["Learn to build modern websites using HTML, CSS, and JavaScript."],
-    link: "https://example.com/cybersecurity",
+    link: "https://t.me/cybersecurityc1",
   },
   {
     title: "Blockchain",
     image: "https://www.ntu.edu.sg/images/default-source/hub-programmes/scse/msc_datasc2_web775x465.jpg?sfvrsn=4dba8fec_5",
     details: ["Master the skills to analyze and visualize data for informed decision-making."],
-    link: "https://example.com/blockchain",
+    link: "https://t.me/blockchainb1",
   },
   {
     title: "Mobile App Development",
     image: "https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5758186fbd8_ABM%20college%20mobile%20app%20dev%20main.jpg",
     details: ["Create mobile apps for iOS and Android using popular frameworks."],
-    link: "https://example.com/mobileapp",
+    link: "https://t.me/blockchainb1",
   },
 ];
 
