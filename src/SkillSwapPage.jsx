@@ -8,6 +8,7 @@ const courses = [
     image: "https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg",
     details: ["Front-End Development", "Back-End Development"],
     link: "https://t.me/neerajguleria4",
+    
   },
   {
     title: "Data Science",
@@ -72,11 +73,14 @@ const SkillSwapPage = () => {
               <a href={course.link} target="_blank" rel="noopener noreferrer">
                 <button style={styles.unlockButton}>Unlock</button>
               </a>
+              <br/>
             </div>
+            
           ))}
         </div>
       </div>
     </div>
+    
   );
 };
 
@@ -108,8 +112,8 @@ const styles = {
     transition: "0.3s",
   },
   homeCardContainer: {
-    marginLeft: "250px",
-    padding: "20px",
+    marginLeft: "170px",
+    padding: "10px",
   },
   cardGrid: {
     display: "flex",
