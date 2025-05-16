@@ -7,7 +7,7 @@ const courses = [
     title: "Full Stack Development",
     image: "https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg",
     details: ["Front-End Development", "Back-End Development"],
-    link: "https://web.telegram.org/k/#@neerajguleria4",
+    link: "https://t.me/neerajguleria4",
   },
   {
     title: "Data Science",
@@ -84,7 +84,7 @@ const SkillSwapPage = () => {
 const styles = {
   sidebar: {
     height: "100%",
-    width: "250px",
+    width: "150px",
     position: "fixed",
     top: 0,
     left: 0,
