@@ -39,7 +39,7 @@ const Home = () => (
     <div className="animated-background"></div>
     <div className="container">
       <h1 className="home-section-heading">Welcome to SkillSwap</h1>
-      <p className="home-section-paragraph">Skillverse is a platfrom where you can buy premium courses at affprdable prices</p>
+      <p className="home-section-paragraph">Skillverse is a platfrom where you can buy premium courses at affordable prices</p>
        <Link to="/skill-swap" className="btn btn-primary" >Get Started</Link>
 
     </div>
